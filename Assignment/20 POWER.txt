@@ -1,0 +1,16 @@
+/* [20] Read integer N and print the first three powers
+	(N^1,N^2,N^3)
+ID : 23BCA274 */
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int n;
+	clrscr();
+	cout<<"Enter the number : ";
+	cin>>n;
+	cout<<"Output is : ";
+	cout<<n<<","<<n*n<<","<<n*n*n<<endl;
+	getch();
+}
